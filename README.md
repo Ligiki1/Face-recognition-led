@@ -1,5 +1,4 @@
-# Face-recognition-led
-
+# Zu welchem Harry Potter-Haus gehörst du?
 **Ursprünglilche Idee** <br>
 Mit einem ESP 32 Cam, wollen wir einen Servo-Motor ansteuern, der bei verschiedenen Gesichtern, die durch die Cam live aufgenommen werden können, das jeweilige Harry Potter-Haus ausgibt. Hier war die Idee, das wie auf einer Art "Glücksscheibe", die Spitze des Servo-Motors hinzeigt. 
 <br>
@@ -18,6 +17,7 @@ Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, u
 6. Exportiere dein Projekt, sodass du einen Link erhälst (Modell exportieren und hochladen für Tensorflow.js).
 7. Link kopieren und im Browser einfügen. Den Link zum richtigen Port findest du im Seriellen Monitor, sobald der Sketch auf den ESP hochgeladen wurde.
 8. Probier es aus! :) 
+9. Im Seriellen Monitor bekommst du dein entsprechendes Haus gesagt oder du schaust einfach auf die RGB-LED. Die Farbcodierung findest du weiter unten. :) 
 <br>
 
 **Definition der Farben**
