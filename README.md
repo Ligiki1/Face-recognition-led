@@ -1,10 +1,10 @@
 # Zu welchem Harry Potter-Haus gehörst du?
 **Ursprünglilche Idee** <br>
-Mit einem ESP 32 Cam, wollen wir einen Servo-Motor ansteuern, der bei verschiedenen Gesichtern, die durch die Cam live aufgenommen werden können, das jeweilige Harry Potter-Haus ausgibt. Hier war die Idee, das wie auf einer Art "Glücksscheibe", die Spitze des Servo-Motors hinzeigt. 
+Mit einem ESP 32 Cam, wollten wir einen Servo-Motor ansteuern, der bei verschiedenen Gesichtern, die durch die Cam live aufgenommen werden können, das jeweilige Harry Potter-Haus ausgibt. Hier war die Idee, das wie auf einer Art "Glücksscheibe", die Spitze des Servo-Motors zeigt auf das jeweilige Haus. 
 <br>
 <br>
 **Problem** <br>
-Die Servo-Motoren (die wir besitzen), sowie die dazugehörigen Libraries, waren nicht mit dem ESP 32 und der Cam kompatibel, was immer wieder zu Abstürzen des ESPs oder der IDE führte.
+Die Servo-Motoren (die wir besitzen), sowie die dazugehörigen notwendigen Libraries, sind nicht mit dem ESP32-Cam kompatibel, weshalb ein aufspielen nicht möglich war, zudem hat es immer wieder zu Abstürzen des ESPs oder der IDE geführt.
 Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, um verschiedene Farben als Indikator für die Häuser zu nutzen.
 <br>
 <br>
