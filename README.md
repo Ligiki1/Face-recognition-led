@@ -8,7 +8,7 @@ Die Servo-Motoren (die wir besitzen), sowie die dazugehörigen Libaries, waren n
 Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, um verschiedene Farben als Indikator für die Häuser zu nutzen.
 
 **Definition der Farben**
-Gryffindor = rot
-Hufflepuff = grün
-Ravenclaw  = pink
-Slytherin = blau
+<br>Gryffindor = rot
+<br>Hufflepuff = grün
+<br>Ravenclaw  = pink
+<br>Slytherin = blau
