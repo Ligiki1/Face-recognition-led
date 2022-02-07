@@ -1,6 +1,6 @@
 //Wi-Fi
-const char* ssid     = "********";
-const char* password = "*********";
+const char* ssid     = "*****";
+const char* password = "*****";
 
 const char* apssid = "ESP32-CAM";
 const char* appassword = "12345678";
@@ -42,7 +42,6 @@ byte ReceiveState = 0, cmdState = 1, strState = 1, questionstate = 0, equalstate
 int ledPin = 12; //rot
 int ledPin2 = 2;  //grün
 int ledPin3 = 15; //blau
-String ausgabe = "test";
 
 WiFiServer server(80);
 
@@ -162,6 +161,7 @@ void setup() {
   pinMode(ledPin, OUTPUT);
   pinMode(ledPin2, OUTPUT);
   pinMode(ledPin3, OUTPUT);
+  
   WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, 0);
 
   Serial.begin(115200);
@@ -480,7 +480,7 @@ static const char PROGMEM INDEX_HTML[] = R"rawliteral(
           data += prediction[i].className + " , " + prediction[i].probability.toFixed(2) + "<br>";
         }
         result.innerHTML = data;
-        result.innerHTML += "<br>Result: " + maxClassName + " , " + maxProbability + ausgabe;
+        result.innerHTML += "<br>Result: " + maxClassName + " , " + maxProbability;
     
         $.ajax({url: document.location.origin+'/?serial='+maxClassName+";"+maxProbability+';stop', async: false});
       }
@@ -635,29 +635,30 @@ void triggered() {
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, LOW);
     }   
-    else if (random(100) < 50) {
+    if (random(100) < 50) {
       Serial.println("Hufflepuff");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
       digitalWrite(ledPin3, HIGH);
     }
-    else if (random(100) < 50) {
+    if (random(100) < 50) {
       Serial.println("Slytherin");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
       digitalWrite(ledPin3, LOW);
     }
-    else if (random(100) < 50) {
+    if (random(100) < 50) {
       Serial.println("Ravenclaw");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, HIGH);
     }
-  if (P1 == "Niemand") {
+  }
+  else if (P1 == "Niemand") {
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, LOW);
   }
   delay(1000);
-  }
 }
+
