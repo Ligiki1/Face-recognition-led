@@ -4,7 +4,7 @@ Mit einem ESP 32 Cam, wollten wir einen Servo-Motor ansteuern, der bei verschied
 <br>
 <br>
 **Problem** <br>
-Die Servo-Motoren (die wir besitzen), sowie die dazugehörigen notwendigen Libraries, sind nicht mit dem ESP32-Cam kompatibel, weshalb ein aufspielen nicht möglich war, zudem hat es immer wieder zu Abstürzen des ESPs oder der IDE geführt.
+Die Servo-Motoren (die wir besitzen), sowie die dazugehörigen notwendigen Libraries, sind nicht mit dem ESP32-Cam kompatibel, weshalb ein aufspielen nicht möglich war, zudem hat es immer wieder zu Abstürzen des ESPs oder der IDE geführt, bis der ESP unbrauchbar war.
 Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, um verschiedene Farben als Indikator für die Häuser zu nutzen.
 <br>
 <br>
