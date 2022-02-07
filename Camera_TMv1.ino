@@ -659,4 +659,5 @@ void triggered() {
       digitalWrite(ledPin3, LOW);
   }
   delay(1000);
+  }
 }
