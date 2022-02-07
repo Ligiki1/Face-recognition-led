@@ -625,6 +625,8 @@ void getCommand(char c)
   }
 }
 
+//Hier passiert die Magie
+//Aendere hier die Klassenbezeichnungen identisch wie in Teachable Machine
 void triggered() {
   if (P1 == "Ich") {
     if (random(100) < 50) {
