@@ -22,8 +22,8 @@ Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, u
 
 **Definition der Farben**
 <br>Gryffindor = rot
-<br>Hufflepuff = grün
-<br>Ravenclaw  = pink
-<br>Slytherin = blau
+<br>Hufflepuff = gelb
+<br>Ravenclaw  = blau
+<br>Slytherin = grün
 
 
