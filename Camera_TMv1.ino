@@ -628,24 +628,29 @@ void getCommand(char c)
 void triggered() {
   if (P1 == "Ich") {
     if (random(100) < 50) {
-      ausgabe = "erste Bedingung";
+      Serial.println("Gryffindor");
       digitalWrite(ledPin, HIGH);
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, LOW);
     }   
     else if (random(100) < 50) {
-      ausgabe = "zweite Bedingung";
+      Serial.println("Hufflepuff");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
       digitalWrite(ledPin3, LOW);
     }
     else if (random(100) < 50) {
-      ausgabe = "dritte Bedingung";
+      Serial.println("Slytherin");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, HIGH);
     }
-  }
+    else if (random(100) < 50) {
+      Serial.println("Ravenclaw");
+      digitalWrite(ledPin, HIGH);
+      digitalWrite(ledPin2, LOW);
+      digitalWrite(ledPin3, HIGH);
+    }
   if (P1 == "Niemand") {
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
