@@ -19,7 +19,7 @@ Daraufhin überlegten wir uns eine Alternative und haben eine RGB-LED genutzt, u
 7. Link kopieren und im Browser einfügen. Den Link zum richtigen Port findest du im Seriellen Monitor, sobald der Sketch auf den ESP hochgeladen wurde.
 8. Probier es aus! :) 
 <br>
-<br>
+
 **Definition der Farben**
 <br>Gryffindor = rot
 <br>Hufflepuff = grün
