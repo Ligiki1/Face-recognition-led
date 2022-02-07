@@ -639,17 +639,17 @@ void triggered() {
       Serial.println("Hufflepuff");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
-      digitalWrite(ledPin3, LOW);
+      digitalWrite(ledPin3, HIGH);
     }
     else if (random(100) < 50) {
       Serial.println("Slytherin");
       digitalWrite(ledPin, LOW);
-      digitalWrite(ledPin2, LOW);
-      digitalWrite(ledPin3, HIGH);
+      digitalWrite(ledPin2, HIGH);
+      digitalWrite(ledPin3, LOW);
     }
     else if (random(100) < 50) {
       Serial.println("Ravenclaw");
-      digitalWrite(ledPin, HIGH);
+      digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, HIGH);
     }
