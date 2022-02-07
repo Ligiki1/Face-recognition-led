@@ -635,19 +635,19 @@ void triggered() {
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, LOW);
     }   
-    if (random(100) < 50) {
+    else if (random(100) < 50) {
       Serial.println("Hufflepuff");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
       digitalWrite(ledPin3, HIGH);
     }
-    if (random(100) < 50) {
+    else if (random(100) < 50) {
       Serial.println("Slytherin");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, HIGH);
       digitalWrite(ledPin3, LOW);
     }
-    if (random(100) < 50) {
+    else if (random(100) < 50) {
       Serial.println("Ravenclaw");
       digitalWrite(ledPin, LOW);
       digitalWrite(ledPin2, LOW);
@@ -659,6 +659,5 @@ void triggered() {
       digitalWrite(ledPin2, LOW);
       digitalWrite(ledPin3, LOW);
   }
-  delay(1000);
+  delay(3000);
 }
-
